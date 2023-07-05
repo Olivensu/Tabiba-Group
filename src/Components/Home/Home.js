@@ -5,6 +5,8 @@ import FirstBanner from './FirstBanner';
 import Freight from './Freight';
 import AboutCompany from './AboutCompany';
 import Aim from './Aim';
+import InterestingFacts from './InterestingFacts';
+import Review from './Review';
 
 const Home = () => {
     return (
@@ -14,6 +16,8 @@ const Home = () => {
             <Freight></Freight>
             <AboutCompany></AboutCompany>
             <Aim></Aim>
+            <InterestingFacts></InterestingFacts>
+            <Review></Review>
             <Banner2></Banner2>
             
         </div>
