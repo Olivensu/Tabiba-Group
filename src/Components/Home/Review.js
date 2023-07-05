@@ -21,7 +21,7 @@ const Review = () => {
                 {/* item---1 */}
 
               <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <div className="mt-60 w-3/4 p-5 rounded shadow-xl bg-white absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+                <div className=" w-3/4 p-5 rounded shadow-xl bg-white absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
                   <p className="text-xl font-bold">
                     I am highly impressed with the professionalism and <br />passion 
                     of people in this warehouse ...

@@ -16,7 +16,7 @@ const Freight = () => {
               <h2 className="card-title font-bold text-2xl">Air Freight</h2>
               <p className='text-start'>Air freight parcel delivery is the transfer and shipment of goods via an air carrier, which may be charter or commercial.</p>
               <button>
-              <div className="flex  justify-around items-center text-accent mt-6  w-36">
+              <div className="flex  justify-around items-center hover:transition hover:duration-500 hover:ease-in-out hover:text-lime-500 hover:font-bold text-accent mt-6  w-36">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -44,7 +44,7 @@ const Freight = () => {
               <h2 className="card-title font-bold text-2xl">Sea Freight</h2>
               <p className='text-start'>Sea freight is a method of transporting large quantities of products via cargo ships. </p>
               <button>
-              <div className="flex  justify-around items-center text-accent mt-6  w-36">
+              <div className="flex  justify-around items-center text-accent mt-6  w-36 hover:transition hover:duration-500 hover:ease-in-out hover:text-lime-500 hover:font-bold">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -72,7 +72,7 @@ const Freight = () => {
               <h2 className="card-title font-bold text-2xl">Road Freight</h2>
               <p className='text-start'>We combine transport execution with transport management services to meet all your needs on the road.</p>
               <button>
-              <div className="flex  justify-around items-center text-accent mt-6  w-36">
+              <div className="flex  justify-around items-center text-accent mt-6  w-36 hover:transition hover:duration-500 hover:ease-in-out hover:text-lime-500 hover:font-bold">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"

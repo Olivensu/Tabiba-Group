@@ -7,6 +7,7 @@ import AboutCompany from './AboutCompany';
 import Aim from './Aim';
 import InterestingFacts from './InterestingFacts';
 import Review from './Review';
+import Map from './Map';
 
 const Home = () => {
     return (
@@ -18,6 +19,7 @@ const Home = () => {
             <Aim></Aim>
             <InterestingFacts></InterestingFacts>
             <Review></Review>
+            <Map></Map>
             <Banner2></Banner2>
             
         </div>

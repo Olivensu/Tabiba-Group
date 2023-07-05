@@ -46,7 +46,7 @@ const Header = () => {
                 </li>
               </ul>
             </div>
-            <a className="btn btn-ghost normal-case text-2xl  font-bold"> <img className='w-12 rounded' src={tabibaIcon} alt="" /> Tabiba Group</a>
+            <a className="btn btn-ghost text-white normal-case text-2xl  font-bold"> <img className='w-12 mr-4 rounded' src={tabibaIcon} alt="" /> Tabiba Group</a>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
@@ -68,7 +68,7 @@ const Header = () => {
             </ul>
           </div>
           <div className="navbar-end">
-            <a className="btn btn-active  text-lg">Sign In</a>
+            <a className="btn hover:btn-secondary btn-active hover:transition hover:duration-500 hover:ease-in-out hover:text-red-600 hover:font-bold  text-lg">Sign In</a>
           </div>
         </div>
       </div>

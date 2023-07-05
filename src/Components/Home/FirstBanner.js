@@ -14,7 +14,7 @@ const FirstBanner = () => {
           
           <div className="text-center m-auto">
             <button className=" btn btn-accent font-bold">
-              <div className="flex  justify-around items-center text-white  w-36">
+              <div className="flex  justify-around items-center hover:transition hover:duration-300 hover:ease-in-out hover:text-gray-800 hover:font-bold text-white  w-36">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
