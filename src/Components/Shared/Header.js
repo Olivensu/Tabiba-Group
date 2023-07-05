@@ -4,7 +4,7 @@ import tabibaIcon from '../../img/Tabiba-logo.PNG'
 const Header = () => {
     return (
       <div>
-        <div className="navbar bg-lime-500">
+        <div className="navbar bg-orange-600 px-16">
           <div className="navbar-start ">
             <div className="dropdown">
               <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -46,20 +46,29 @@ const Header = () => {
                 </li>
               </ul>
             </div>
-            <a className="btn btn-ghost normal-case text-xl"> <img className='w-12 rounded' src={tabibaIcon} alt="" /> Tabiba Group</a>
+            <a className="btn btn-ghost normal-case text-2xl  font-bold"> <img className='w-12 rounded' src={tabibaIcon} alt="" /> Tabiba Group</a>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
               <li>
-                <a>About</a>
+                <a className='text-lg font-bold text-white'>Home</a>
               </li>
               <li>
-                <a>Contact</a>
+                <a className='text-lg font-bold text-white'>About</a>
+              </li>
+              <li>
+                <a className='text-lg font-bold text-white'>Services</a>
+              </li>
+              <li>
+                <a className='text-lg font-bold text-white'>Our Team</a>
+              </li>
+              <li>
+                <a className='text-lg font-bold text-white'>Contact</a>
               </li>
             </ul>
           </div>
           <div className="navbar-end">
-            <a className="btn">Button</a>
+            <a className="btn btn-active  text-lg">Sign In</a>
           </div>
         </div>
       </div>

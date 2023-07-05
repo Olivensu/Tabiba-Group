@@ -4,14 +4,14 @@ const Footer = () => {
     return (
       <div>
         <footer className="footer footer-center bg-gray-700 text-white p-10 text-base-content rounded">
-          <div className="grid grid-flow-col gap-4">
+          <div className="grid grid-flow-col gap-4 text-white">
             <a className="link link-hover">About us</a>
             <a className="link link-hover">Contact</a>
             <a className="link link-hover">Jobs</a>
             <a className="link link-hover">Press kit</a>
           </div>
           <div>
-            <div className="grid grid-flow-col gap-4">
+            <div className="grid grid-flow-col gap-4 text-white">
               <a>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +47,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div>
+          <div className='text-white'>
             <p>House No. #10, 4th floor, Block #C, Main Road, Bonosree, Rampura, Dhaka-1219. <br />
             Phone: 02-7274351, Cell: 01754-038271 Email: tabibaimpex@gmail.com</p>
             <p>Copyright © 2023 - All right reserved by Tabiba Group</p>
