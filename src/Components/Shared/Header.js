@@ -1,5 +1,6 @@
 import React from 'react';
 import tabibaIcon from '../../img/Tabiba-logo.PNG'
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -28,45 +29,45 @@ const Header = () => {
                 className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
                 <li>
-                <a href='/' className='text-lg font-bold '>Home</a>
+                <Link to='/' className='text-lg font-bold '>Home</Link>
               </li>
               <li>
-                <a href='/about' className='text-lg font-bold '>About</a>
+                <Link to='/about' className='text-lg font-bold '>About</Link>
               </li>
               <li>
-                <a href='/service' className='text-lg font-bold '>Services</a>
+                <Link to='/service' className='text-lg font-bold '>Services</Link>
               </li>
               <li>
-                <a href='/team' className='text-lg font-bold '>Our Team</a>
+                <Link to='/team' className='text-lg font-bold '>Our Team</Link>
               </li>
               <li>
-                <a href='/contact' className='text-lg font-bold '>Contact</a>
+                <Link to='/contact' className='text-lg font-bold '>Contact</Link>
               </li>
               </ul>
             </div>
-            <a href='/' className="btn btn-ghost text-white ml-[-15px] normal-case text-xl md:text-2xl  font-bold"> <img className='w-8 md:w-12 md:mr-4 rounded' src={tabibaIcon} alt="" /> Tabiba Group</a>
+            <Link to='/' className="btn btn-ghost text-white ml-[-15px] normal-case text-xl md:text-2xl  font-bold"> <img className='w-8 md:w-12 md:mr-4 rounded' src={tabibaIcon} alt="" /> Tabiba Group</a>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
               <li>
-                <a href='/' className='text-lg font-bold text-white'>Home</a>
+                <Link to='/' className='text-lg font-bold text-white'>Home</Link>
               </li>
               <li>
-                <a href='/about' className='text-lg font-bold text-white'>About</a>
+                <Link to='/about' className='text-lg font-bold text-white'>About</Link>
               </li>
               <li>
-                <a href='/service' className='text-lg font-bold text-white'>Services</a>
+                <Link to='/service' className='text-lg font-bold text-white'>Services</Link>
               </li>
               <li>
-                <a href='/team' className='text-lg font-bold text-white'>Our Team</a>
+                <Link to='/team' className='text-lg font-bold text-white'>Our Team</Link>
               </li>
               <li>
-                <a href='/contact' className='text-lg font-bold text-white'>Contact</a>
+                <Link to='/contact' className='text-lg font-bold text-white'>Contact</Link>
               </li>
             </ul>
           </div>
           <div className="navbar-end">
-            <a href='/signIn' className="btn btn-sm hover:btn-secondary  btn-active hover:transition hover:duration-500 hover:ease-in-out hover:text-red-600 hover:font-bold  text-lg">Sign In</a>
+            <Link to='/signIn' className="btn btn-sm hover:btn-secondary  btn-active hover:transition hover:duration-500 hover:ease-in-out hover:text-red-600 hover:font-bold  text-lg">Sign In</Link>
           </div>
         </div>
       </div>

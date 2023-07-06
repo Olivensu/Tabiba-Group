@@ -5,6 +5,7 @@ import img3 from '../../img/Galllary/project-17.jpg'
 import img4 from '../../img/Galllary/project-18.jpg'
 import img5 from '../../img/Galllary/project-19.jpg'
 import img6 from '../../img/Galllary/project-20.jpg'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -92,11 +93,11 @@ const Footer = () => {
             <hr className="mb-8 w-2/4 outline-dashed outline-orange-600 outline-2" />
             <div className=''>
               <div className='mr-8'>
-              <a href='/' className="link block hover:text-accent no-underline text- text-lg mb-3">+ Home</a>
-              <a href='/contact' className="link block hover:text-accent no-underline text- text-lg my-3">+ Contact</a>
-              <a href='/about' className="link block hover:text-accent no-underline text- text-lg my-3">+ About</a>
-              <a href='/service' className="link block hover:text-accent no-underline text- text-lg my-3">+ Service</a>
-              <a href='/team' className="link block hover:text-accent no-underline text- text-lg my-3">+ Our Team</a>
+              <Link to='/' className="link block hover:text-accent no-underline text- text-lg mb-3">+ Home</Link>
+              <Link to='/contact' className="link block hover:text-accent no-underline text- text-lg my-3">+ Contact</Link>
+              <Link to='/about' className="link block hover:text-accent no-underline text- text-lg my-3">+ About</Link>
+              <Link to='/service' className="link block hover:text-accent no-underline text- text-lg my-3">+ Service</Link>
+              <Link to='/team' className="link block hover:text-accent no-underline text- text-lg my-3">+ Our Team</Link>
               </div>
               
             </div>
