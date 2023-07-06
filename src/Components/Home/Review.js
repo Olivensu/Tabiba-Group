@@ -4,7 +4,7 @@ import author2 from '../../img/author-2.jpg'
 
 const Review = () => {
     return (
-      <div className="text-center my-32 py-24 m-10 bg-[#F0ECE5]">
+      <div className="text-center my-32 py-24 md:m-10 bg-[#F0ECE5]">
         <p className="text-orange-500 text-lg font-bold">OUR SERVICES</p>
         <p className="text-3xl md:text-4xl font-bold my-8">
           Moving Your Products Across All Borders

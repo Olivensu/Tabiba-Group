@@ -7,7 +7,7 @@ import Tons  from '../../img/tons.png'
 
 const InterestingFacts = () => {
     return (
-      <div className="text-center my-28 py-24 m-10 bg-blue-600">
+      <div className="text-center my-28 py-24 md:m-10 bg-blue-600">
         <p className="text-orange-500 text-lg font-bold">INTERESTING FACTS</p>
         <p className="text-3xl md:text-5xl text-white font-bold my-8">
           The Numbers Speak for <br />

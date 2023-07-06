@@ -3,9 +3,9 @@ import './FirstBanner.css'
 
 const FirstBanner = () => {
     return (
-      <div className="banner h-screen">
-        <div className="m-auto text-center">
-          <div class=" text-white m-auto py-10 md:pt-36">
+      <div className="banner h-screen ">
+        <div className="m-auto text-center h-screen bg-gray-700 bg-opacity-60">
+          <div class=" text-white m-auto py-10 pt-28 md:pt-42 lg:pt-56">
             <div><h1 className='text-2xl md:text-4xl font-bold'>COMPETITIVE RATES</h1>
             <h1 className='text-4xl md:text-6xl font-bold my-8 text-white'>SAFETY & RELIABLE ON-TIME</h1></div>
           </div>

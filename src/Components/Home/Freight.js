@@ -10,7 +10,7 @@ const Freight = () => {
         <p className="text-3xl md:text-4xl font-bold my-8">
           Moving Your Products Across All Borders
         </p>
-        <div className='grid grid-cols-1 md:grid-cols-3 justify-items-center mt-24'>
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-20 justify-items-center mt-24'>
           <div className="card w-80 bg-[#293E9C] shadow-xl">
             <div className="card-body text-white">
               <h2 className="card-title font-bold text-2xl">Air Freight</h2>
