@@ -90,24 +90,15 @@ const Footer = () => {
           <div>
           <span className="footer-title text-2xl">useful Links</span>
             <hr className="mb-8 w-2/4 outline-dashed outline-orange-600 outline-2" />
-            <div className='flex'>
+            <div className=''>
               <div className='mr-8'>
-              <a className="link block hover:text-accent no-underline text- text-lg mb-3">+ About us</a>
-              <a className="link block hover:text-accent no-underline text- text-lg my-3">+ Contact</a>
-              <a className="link block hover:text-accent no-underline text- text-lg my-3">+ Global Networks</a>
-              <a className="link block hover:text-accent no-underline text- text-lg my-3">+ Large Image</a>
-              <a className="link block hover:text-accent no-underline text- text-lg my-3">+ Ocean Freight</a>
-              <a className="link block hover:text-accent no-underline text- text-lg my-3">+ Pricing Freight</a>
-              <a className="link block hover:text-accent no-underline text- text-lg my-3">+ Road Freight</a>
+              <a href='/' className="link block hover:text-accent no-underline text- text-lg mb-3">+ Home</a>
+              <a href='/contact' className="link block hover:text-accent no-underline text- text-lg my-3">+ Contact</a>
+              <a href='/about' className="link block hover:text-accent no-underline text- text-lg my-3">+ About</a>
+              <a href='/service' className="link block hover:text-accent no-underline text- text-lg my-3">+ Service</a>
+              <a href='/team' className="link block hover:text-accent no-underline text- text-lg my-3">+ Our Team</a>
               </div>
-              <div>
-              <a className="link block hover:text-accent no-underline text- text-lg mb-3">+ Air Freight</a>
-              <a className="link block hover:text-accent no-underline text- text-lg my-3">+ Faqs</a>
-              <a className="link block hover:text-accent no-underline text- text-lg my-3">+ History</a>
-              <a className="link block hover:text-accent no-underline text- text-lg my-3">+ Leadership Team</a>
-              <a className="link block hover:text-accent no-underline text- text-lg my-3">+ Packaging</a>
-              <a className="link block hover:text-accent no-underline text- text-lg my-3">+ Request A Quote</a>
-              </div>
+              
             </div>
           </div>
           <div>

@@ -11,7 +11,7 @@ const Map = () => {
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
-        <div className='bg-[rgb(41,62,156)] p-3 py-24 grid grid-cols-1 gap-10 md:grid-cols-2'>
+        <div className='bg-[rgb(41,62,156)] p-3 md:px-10 py-24 grid grid-cols-1 gap-10 md:grid-cols-2'>
           <div className='flex '>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +60,7 @@ const Map = () => {
                   required
                 />
               </div>
-              <button className=" md:btn p-1 rounded btn-sm btn-accent font-bold py-6 md:py-8 ml-2">
+              <button className="btn p-1 rounded btn-accent font-bold py-6 md:py-8 ml-2">
                 <div className="flex  justify-around items-center mt-[-10px] hover:transition hover:duration-300 hover:ease-in-out hover:text-gray-800 hover:font-bold text-white  w-32">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

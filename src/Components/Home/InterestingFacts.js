@@ -43,13 +43,7 @@ const InterestingFacts = () => {
                 </div>
                 <img src={delivered} alt="" />
             </div>
-            <div className='flex bg-white shadow-lg justify-between  p-5 text-start'>
-                <div>
-                    <p className='text-4xl font-bold text-orange-600'>6500</p>
-                    <p className='text-2xl font-bold'>Parcel Delivered</p>
-                </div>
-                <img src={delivered} alt="" />
-            </div>
+            
         </div>
       </div>
     );

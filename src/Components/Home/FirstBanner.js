@@ -1,18 +1,20 @@
 import React from 'react';
 import './FirstBanner.css'
+import { Link } from 'react-router-dom';
 
 const FirstBanner = () => {
     return (
       <div className="banner h-screen ">
         <div className="m-auto text-center h-screen bg-gray-700 bg-opacity-60">
-          <div class=" text-white m-auto py-10 pt-28 md:pt-42 lg:pt-56">
+          <div class=" text-white m-auto py-10 pt-20 md:pt-32 lg:pt-46">
             <div><h1 className='text-2xl md:text-4xl font-bold'>COMPETITIVE RATES</h1>
             <h1 className='text-4xl md:text-6xl font-bold my-8 text-white'>SAFETY & RELIABLE ON-TIME</h1></div>
           </div>
             <hr className='hr-dashed w-2/4 m-auto'/>
-          <p className='text-xl md:text-3xl text-white my-10 font-bold'>We denounce with righteous indignation & dislike beguiled</p>
+          <p className='text-xl md:text-3xl text-white my-10 font-bold'>Our service promise to make your dreams come true.</p>
           
           <div className="text-center m-auto">
+            <Link to='/about'>
             <button className=" btn btn-accent font-bold">
               <div className="flex  justify-around items-center hover:transition hover:duration-300 hover:ease-in-out hover:text-gray-800 hover:font-bold text-white  w-36">
                 <svg
@@ -32,6 +34,7 @@ const FirstBanner = () => {
                 <p>MORE DETAILS</p>
               </div>
             </button>
+            </Link>
           </div>
         </div>
       </div>

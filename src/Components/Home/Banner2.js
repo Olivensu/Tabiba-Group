@@ -3,8 +3,7 @@ import atc from '../../img/ATC-logo.PNG'
 
 const Banner2 = () => {
     return (
-        <div className='m-12'>
-            
+        <div className='m-12 mt-32 '>
             <div className='flex align-bottom'>
                 <img className='w-12 rounded-xl' src={atc} alt="" />
                 <div className='w-full'>

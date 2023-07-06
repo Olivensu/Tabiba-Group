@@ -3,7 +3,7 @@ import tabibaIcon from '../../img/Tabiba-logo.PNG'
 
 const Header = () => {
     return (
-      <div className='relative'>
+      <div className='relative mb-16'>
         <div className="navbar bg-orange-600 md:px-16 fixed top-0 left-0 right-0 z-50">
           <div className="navbar-start ">
             <div className="dropdown">
@@ -28,45 +28,45 @@ const Header = () => {
                 className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
                 <li>
-                <a className='text-lg font-bold '>Home</a>
+                <a href='/' className='text-lg font-bold '>Home</a>
               </li>
               <li>
-                <a className='text-lg font-bold '>About</a>
+                <a href='/about' className='text-lg font-bold '>About</a>
               </li>
               <li>
-                <a className='text-lg font-bold '>Services</a>
+                <a href='/service' className='text-lg font-bold '>Services</a>
               </li>
               <li>
-                <a className='text-lg font-bold '>Our Team</a>
+                <a href='/team' className='text-lg font-bold '>Our Team</a>
               </li>
               <li>
-                <a className='text-lg font-bold '>Contact</a>
+                <a href='/contact' className='text-lg font-bold '>Contact</a>
               </li>
               </ul>
             </div>
-            <a className="btn btn-ghost text-white ml-[-15px] normal-case text-xl md:text-2xl  font-bold"> <img className='w-8 md:w-12 md:mr-4 rounded' src={tabibaIcon} alt="" /> Tabiba Group</a>
+            <a href='/' className="btn btn-ghost text-white ml-[-15px] normal-case text-xl md:text-2xl  font-bold"> <img className='w-8 md:w-12 md:mr-4 rounded' src={tabibaIcon} alt="" /> Tabiba Group</a>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
               <li>
-                <a className='text-lg font-bold text-white'>Home</a>
+                <a href='/' className='text-lg font-bold text-white'>Home</a>
               </li>
               <li>
-                <a className='text-lg font-bold text-white'>About</a>
+                <a href='/about' className='text-lg font-bold text-white'>About</a>
               </li>
               <li>
-                <a className='text-lg font-bold text-white'>Services</a>
+                <a href='/service' className='text-lg font-bold text-white'>Services</a>
               </li>
               <li>
-                <a className='text-lg font-bold text-white'>Our Team</a>
+                <a href='/team' className='text-lg font-bold text-white'>Our Team</a>
               </li>
               <li>
-                <a className='text-lg font-bold text-white'>Contact</a>
+                <a href='/contact' className='text-lg font-bold text-white'>Contact</a>
               </li>
             </ul>
           </div>
           <div className="navbar-end">
-            <a className="btn btn-sm hover:btn-secondary  btn-active hover:transition hover:duration-500 hover:ease-in-out hover:text-red-600 hover:font-bold  text-lg">Sign In</a>
+            <a href='/signIn' className="btn btn-sm hover:btn-secondary  btn-active hover:transition hover:duration-500 hover:ease-in-out hover:text-red-600 hover:font-bold  text-lg">Sign In</a>
           </div>
         </div>
       </div>

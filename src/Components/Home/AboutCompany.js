@@ -4,6 +4,7 @@ import aboutCompany from '../../img/aboutCompany.PNG'
 import statementMission from '../../img/statementMission.PNG'
 import StatementVision from '../../img/StatementVision.PNG'
 import statementValue from '../../img/statementValue.PNG'
+import { Link } from 'react-router-dom';
 
 const AboutCompany = () => {
     return (
@@ -12,7 +13,7 @@ const AboutCompany = () => {
   <div className="hero-content flex-col lg:flex-row-reverse">
     <img src={reliableService} className=" rounded-lg shadow-2xl" />
     <div className='p-10'>
-    <p className="text-orange-500 text-lg font-bold">OUR SERVICES</p>
+    <p className="text-orange-500 text-lg font-bold">About Us</p>
         <p className="text-3xl md:text-5xl font-bold my-8">
         Provide a Reliable <br /> Services Since 2011
         </p>
@@ -20,6 +21,7 @@ const AboutCompany = () => {
                 <p className='my-4 text-xl'>We are <b>Amayra Trading Company</b>, "Shipbroker" that has "S&P dept.</p>
                 <p className='my-4 text-xl'>Our service promise to make your dreams come true. Please Feel to browse around our site, and your valuable feedback would be highly appreciated. We also have export, import & carrier business.</p>
             </div>
+            <Link to='/about'>
             <button className=" btn btn-accent font-bold">
               <div className="flex  justify-around items-center text-white  w-36">
                 <svg
@@ -39,14 +41,13 @@ const AboutCompany = () => {
                 <p>MORE DETAILS</p>
               </div>
             </button>
+            </Link>
             <div>
-                <div className='md:flex gap-5 mt-12'>
-                    <img className='my-5' src={aboutCompany} alt="" />
-                    <img className='my-5' src={statementMission} alt="" />
-                </div>
-                <div className='md:flex gap-5'>
-                    <img className='my-5' src={statementValue} alt="" />
-                    <img className='my-5' src={StatementVision} alt="" />
+                <div className='grid md:grid-cols-2 gap-5 mt-12'>
+                    <img className='my-5 cursor-pointer hover:w-80' src={aboutCompany} alt="" />
+                    <img className='my-5 cursor-pointer hover:w-80' src={statementMission} alt="" />
+                    <img className='my-5 cursor-pointer hover:w-80' src={statementValue} alt="" />
+                    <img className='my-5 cursor-pointer hover:w-80' src={StatementVision} alt="" />
                 </div>
             </div>
     </div>
