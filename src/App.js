@@ -2,7 +2,7 @@
 import './App.css';
 import Header from './Components/Shared/Header';
 import Footer from './Components/Shared/Footer';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
 import Home from './Components/Home/Home';
 import Banner2 from './Components/Home/Banner2';
 import CommingSoon from './Components/Home/CommingSoon';
@@ -11,10 +11,21 @@ import About from './Components/Home/About';
 import Contact from './Components/Home/Contact';
 import OurTeam from './Components/Home/OurTeam';
 import SignIn from './Components/Home/SignIn';
+import { useEffect } from 'react';
 
 function App() {
+  function ScrollToTop() {
+    const { pathname } = useLocation();
+  
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+  
+    return null;
+  }
   return (
     <div>
+      <ScrollToTop />
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
