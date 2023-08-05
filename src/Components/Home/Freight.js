@@ -111,6 +111,18 @@ const Freight = () => {
             </figure>
           </div>
         </div> */}
+
+<div className='my-12'>
+                <h1 className='text-4xl mb-10 font-bold text-orange-500'>Sale & Purchase dept.S</h1>
+                <p className='my-4 text-xl'>SMALL SIZE (ABOUT 100MT) CARGO VESSELS, TANKERS, CONTAINERS, FERRIES, FISHBOATS, AND ABOUT 10,000MT OF TANKERS AND BULKERS, AND ABOUT 40,000MT OF HANDY SIZE VESSELS. WE ARE READY FOR RESPONSE TO ANY KINDS OF YOUR NEEDS ANYTIME, ANYWHERE.</p>
+                <p className='my-4 text-xl'>PLEASE ALSO FEEL FREE TO CALL US ABOUT NOT ONLY SALING/PURCHASING VESSELS BUT YOUR WONDERINGS OF IMPORT/EXPORT BUSINESSES.</p>
+            </div>
+            <div className='my-12'>
+                <h1 className='text-4xl mb-10 font-bold text-orange-500'>Chartering Department</h1>
+                <p className='my-4 text-xl'>ABOUT 3,000MT TO 15,000MT DEADWEIGHT STEEL PRODUCTS CARRIER, LOG CARRIERS, AND BULKERS.</p>
+                <p className='my-4 text-xl'>WE HAVE SUITABLE CARGOES FOR YOUR WONDERFUL VESSELS WHO ARE FREE AT PORTS IN ASIA.</p>
+                <p className='my-4 text-xl'>WE ALSO HAVE SUITABLE VESSELS FOR YOUR ANY KINDS OF CARGOES FROM WHEREVER AND WHENEVER. WE NEVER LET YOUR VESSELS OR CARGOES SPEND USELESS TIME.</p>
+            </div>
       </div>
     );
 };
