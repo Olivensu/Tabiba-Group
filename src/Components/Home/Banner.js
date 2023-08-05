@@ -9,22 +9,22 @@ const Banner = () => {
             <div className='flex items-center w-[350px] md:w-[380px] lg:w-[410px]  bg-sky-400 rounded-xl p-3 py-5'>
                 <img className='w-20 h-20 rounded-xl mr-5' src={atc} alt="" />
                 <div> 
-                <Link to='/aboutAmayra'><h3 className='text-xl cursor-pointer font-bold text-white mb-3'>AMAYRA TRADING COMPANY</h3></Link>
-                <p>Indenture, Shipbroker, Importer <br />Exporter, Carrier & Suppliers</p>
+                <Link to='/about'><h3 className='text-xl cursor-pointer font-bold text-white mb-3'>AMAYRA TRADING COMPANY</h3></Link>
+                <p>Ship owner, Importer, Indenture, shipbroker, Sell and Purchase (SNP).</p>
                 </div>
             </div>
             <div className='flex items-center  w-[350px] md:w-[380px] lg:w-[410px]  bg-red-400 rounded-xl p-3'>
                 <img className='w-20 rounded-xl mr-5' src={tabiba} alt="" />
                 <div>
-                <h3 className='text-xl font-bold text-white mb-3'>TABIBA IMPLEX LTD.</h3>
-                <p>Importer, Exporter & Suppliers <br />All Kinds of Goods</p>
+                <Link  to='/about'><h3 className='text-xl font-bold text-white mb-3'>TABIBA IMPLEX LTD.</h3></Link>
+                <p>Ship owner, Cargo Handling, Chartering, carrying contractor.</p>
                 </div>
             </div>
             <div className='flex items-center  w-[350px] md:w-[380px] lg:w-[410px]  bg-lime-400 rounded-xl p-3'>
                 <img className='w-20 rounded-xl mr-5' src={tabiba} alt="" />
                 <div>
                 <Link to='/comingSoon'><h3 className='text-xl font-bold text-white mb-3'>TABIBA MARINE SERVICES</h3></Link>
-                <p>Importer, Exporter & Suppliers <br />All Kinds of Goods</p>
+                <p>Paints, Ship Store, Ship Equipment’s spare parts, Suppliers.</p>
                 </div>
             </div>
             

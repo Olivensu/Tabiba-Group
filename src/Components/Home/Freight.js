@@ -6,11 +6,26 @@ import ship from '../../img/ship.PNG'
 const Freight = () => {
     return (
       <div className="text-center my-28 m-10">
-        <p className="text-orange-500 text-lg font-bold">OUR SERVICES</p>
-        <p className="text-3xl md:text-4xl font-bold my-8">
+        <p className="text-orange-500 text-3xl font-bold my-10">Company Profile</p>
+        
+
+        <div>
+          <p className='text-xl '>We are a professional and proven team: <br />⦁ Experienced brokers have concluded hundreds of S&P, newbuilding and time charter contracts<br />⦁ Technical Superintendents have many years of practical engineering experience with sophisticated ships <br />⦁ Knowledgeable staff members have a “real world” track record working for owners operating ships in international trades.</p>
+        </div>
+        <p className="text-orange-500 text-3xl font-bold my-10">Achievements</p>
+
+        <div>
+          <p className='text-xl '>With this concept, we’ve been working as a pioneer, <br />being the first to offer full commercial & technical support to chemical tanker owners since our establishment in 2001.</p>
+        </div>
+        <p className="text-orange-500 text-3xl font-bold my-10">OUR SERVICES</p>
+        {/* <p className="text-3xl md:text-4xl font-bold my-8">
           Moving Your Products Across All Borders
-        </p>
-        <div className='grid grid-cols-1 md:grid-cols-3 gap-20 justify-items-center mt-24'>
+        </p> */}
+
+        <div>
+          <p className='text-xl '>We provide a wide range of services for new shipbuilding contracts. We have concluded over 30 contracts for clients all over the world. This experience enables us to support you from all aspects: shipbuilding contracts, finance, newbuilding supervision, time charters and technical consultancy. We are a reliable consultant in ship management contracts and for handling actual ship operations.</p>
+        </div>
+        {/* <div className='grid grid-cols-1 md:grid-cols-3 gap-20 justify-items-center mt-24'>
           <div className="card w-80 bg-[#293E9C] shadow-xl">
             <div className="card-body text-white">
               <h2 className="card-title font-bold text-2xl">Air Freight</h2>
@@ -95,7 +110,7 @@ const Freight = () => {
               <img src={road} alt="Shoes" />
             </figure>
           </div>
-        </div>
+        </div> */}
       </div>
     );
 };

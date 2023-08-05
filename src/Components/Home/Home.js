@@ -8,6 +8,7 @@ import Aim from './Aim';
 import InterestingFacts from './InterestingFacts';
 import Review from './Review';
 import Map from './Map';
+import MyClient from './MyClient';
 
 const Home = () => {
     return (
@@ -17,8 +18,9 @@ const Home = () => {
             <Freight></Freight>
             <AboutCompany></AboutCompany>
             <Aim></Aim>
-            <InterestingFacts></InterestingFacts>
-            <Review></Review>
+            <MyClient></MyClient>
+            {/* <InterestingFacts></InterestingFacts> */}
+            {/* <Review></Review> */}
             <Map></Map>
         </div>
     );

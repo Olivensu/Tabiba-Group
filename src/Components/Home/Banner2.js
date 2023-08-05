@@ -26,15 +26,22 @@ const Banner2 = () => {
 
             <div className='my-12'>
                 <h1 className='text-4xl mb-10 font-bold text-orange-700'>The Present State Of Company</h1>
-                <p className='my-4 text-xl'>We concentrate on the Business with overseas/domestic shipowners mainly since the establishment.</p>
-                <p className='my-4 text-xl'>S & P Dept. Is Strong In Handling Small Size Vessels Such As About 100mt Deadweight To Handy Size Ones, Especially Cargo, Tankers, Ferries, Cruisers, And So On.</p>
+                <p className='my-4 text-xl'>WE CONCENTRATE ON THE BUSINESS WITH OVERSEAS/DOMESTIC SHIPOWNERS MAINLY SINCE THE ESTABLISHMENT.</p>
+                <p className='my-4 text-xl'>S&P DEPT. IS STRONG IN HANDLING SMALL SIZE VESSELS SUCH AS ABOUT 100MT DEADWEIGHT TO HANDY SIZE ONES, ESPECIALLY CARGO VESSELS, TANKERS, FERRIES, CRUISERS, AND SO ON.</p>
+                <p className='my-4 text-xl'>CHARTERING DEPT. MAINLY FIXES EXPORT/IMPORT TRADES IN SOUTH EAST ASIA, SUCH AS AMONG KOREA, CHINA, VIETNAM, THAILAND, MALAYSIA, SINGAPORE, INDONESIA, TAIWAN, PHILIPPINES, AND SO ON.</p>
                 <p className='my-4 text-xl'>We Promise "Quick And Accurate" Service.</p>
             </div>
             
             <div className='my-12'>
                 <h1 className='text-4xl mb-10 font-bold text-orange-700'>Sale & Purchase dept.S</h1>
-                <p className='my-4 text-xl'>Mall size(about 100mt) cargo vessels, tankers,containers,ferries, fishboats, and about 10,000mt og tankers and bulkers, and  about 40,000mt of handy size vessels, We are ready for response to any kinds of your needs anytime, anywhere.</p>
-                <p className='my-4 text-xl'>Please also feel to call us about not only selling/purchasing vessels but your wondering of import/export business.</p>
+                <p className='my-4 text-xl'>SMALL SIZE (ABOUT 100MT) CARGO VESSELS, TANKERS, CONTAINERS, FERRIES, FISHBOATS, AND ABOUT 10,000MT OF TANKERS AND BULKERS, AND ABOUT 40,000MT OF HANDY SIZE VESSELS. WE ARE READY FOR RESPONSE TO ANY KINDS OF YOUR NEEDS ANYTIME, ANYWHERE.</p>
+                <p className='my-4 text-xl'>PLEASE ALSO FEEL FREE TO CALL US ABOUT NOT ONLY SALING/PURCHASING VESSELS BUT YOUR WONDERINGS OF IMPORT/EXPORT BUSINESSES.</p>
+            </div>
+            <div className='my-12'>
+                <h1 className='text-4xl mb-10 font-bold text-orange-700'>Chartering Department</h1>
+                <p className='my-4 text-xl'>ABOUT 3,000MT TO 15,000MT DEADWEIGHT STEEL PRODUCTS CARRIER, LOG CARRIERS, AND BULKERS.</p>
+                <p className='my-4 text-xl'>WE HAVE SUITABLE CARGOES FOR YOUR WONDERFUL VESSELS WHO ARE FREE AT PORTS IN ASIA.</p>
+                <p className='my-4 text-xl'>WE ALSO HAVE SUITABLE VESSELS FOR YOUR ANY KINDS OF CARGOES FROM WHEREVER AND WHENEVER. WE NEVER LET YOUR VESSELS OR CARGOES SPEND USELESS TIME.</p>
             </div>
         </div>
     );

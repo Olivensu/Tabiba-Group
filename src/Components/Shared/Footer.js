@@ -1,10 +1,16 @@
 import React from 'react';
-import img1 from '../../img/Galllary/project-15.jpg'
-import img2 from '../../img/Galllary/project-16.jpg'
-import img3 from '../../img/Galllary/project-17.jpg'
-import img4 from '../../img/Galllary/project-18.jpg'
-import img5 from '../../img/Galllary/project-19.jpg'
-import img6 from '../../img/Galllary/project-20.jpg'
+import img1 from '../../img/Galllary/IMG-20230805-WA0001.jpg'
+import img2 from '../../img/Galllary//IMG-20230805-WA0002.jpg'
+import img3 from '../../img/Galllary/IMG-20230805-WA0003.jpg'
+import img4 from '../../img/Galllary/IMG-20230805-WA0004.jpg'
+import img5 from '../../img/Galllary/IMG-20230805-WA0005.jpg'
+import img6 from '../../img/Galllary/IMG-20230805-WA0006.jpg'
+import img7 from '../../img/Galllary/IMG-20230805-WA0007.jpg'
+import img8 from '../../img/Galllary/IMG-20230805-WA0008.jpg'
+import img9 from '../../img/Galllary/IMG-20230805-WA0009.jpg'
+import img10 from '../../img/Galllary/IMG-20230805-WA0010.jpg'
+import img11 from '../../img/Galllary/IMG-20230805-WA0011.jpg'
+import img12 from '../../img/Galllary/IMG-20230805-WA0035.jpg'
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -28,7 +34,7 @@ const Footer = () => {
               </svg>
               <div>
               <p className="text-xl font-bold">Phone</p>
-              <p className='text-lg mt-2'>(+880)1754-038271</p>
+              <p className='text-lg mt-2'>(+880)1721-315455</p>
               </div>
             </div>
             <div className='flex items-center my-5'>
@@ -39,7 +45,9 @@ const Footer = () => {
 
               <div>
               <p className="text-xl font-bold">Email</p>
-              <p className='text-lg mt-2'>tabibaimpex@gmail.com</p>
+              <p className="text-lg mt-2">prince.reza777@gmail.com </p>
+            <p className="text-lg mt-1">tabibaimpex@gmail.com</p>
+            <p className="text-lg mt-1">amayratrading@yahoo.com</p>
               </div>
             </div>
             <div className='flex items-center'>
@@ -105,16 +113,19 @@ const Footer = () => {
           <div>
           <span className="footer-title text-2xl">Our Gallery</span>
             <hr className="mb-8 w-2/4 outline-dashed outline-orange-600 outline-2" />
-            <div className='grid grid-cols-3 gap-3'>
-              <img className='w-28 ' src={img4} alt="" />
-              <img className='w-28 ' src={img1} alt="" />
-              <img className='w-28 ' src={img2} alt="" />
-              <img className='w-28 ' src={img3} alt="" />
-              <img className='w-28 ' src={img5} alt="" />
-              <img className='w-28 ' src={img6} alt="" />
-              <img className='w-28 ' src={img4} alt="" />
-              <img className='w-28 ' src={img3} alt="" />
-              <img className='w-28 ' src={img2} alt="" />
+            <div className='grid grid-cols-2  lg:grid-cols-3 gap-3'>
+              <img className='lg:w-32 ' src={img7} alt="" />
+              <img className='lg:w-32 ' src={img1} alt="" />
+              <img className='lg:w-32 ' src={img2} alt="" />
+              <img className='lg:w-32 ' src={img3} alt="" />
+              <img className='lg:w-32 ' src={img5} alt="" />
+              <img className='lg:w-32 ' src={img6} alt="" />
+              <img className='lg:w-32 ' src={img4} alt="" />
+              <img className='lg:w-32 ' src={img8} alt="" />
+              <img className='lg:w-32 ' src={img9} alt="" />
+              <img className='lg:w-32 ' src={img10} alt="" />
+              <img className='lg:w-32 ' src={img11} alt="" />
+              <img className='lg:w-32 ' src={img12} alt="" />
             </div>
           </div>
         </footer>
